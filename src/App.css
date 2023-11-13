@@ -1,0 +1,40 @@
+nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.logo h1{
+    font-size: 40px;
+    color: white;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0px 30px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+li:hover{
+    border-bottom: 1px solid orange;
+    color: rgb(255, 88, 88);
+}
+.sign button{
+    height: 50px;
+    width: 100px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+.sign button:hover{
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+}
